@@ -13,6 +13,7 @@ class PhotoGridAdapter : ListAdapter<MarsPhoto,
     class MarsPhotoViewHolder(
         private var binding: GridViewItemBinding
     ):
+    //It took 2 hours of my life to resolve 4 next lines
         RecyclerView.ViewHolder(binding.root) {
         fun bind(MarsPhoto: MarsPhoto) {
             binding.photo = MarsPhoto
